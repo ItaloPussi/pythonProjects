@@ -3,7 +3,7 @@ from functions.convertions.convertLettersToNumbers import convertLettersToNumber
 from functions.variables.cryptoCharacters import cryptoCharacters
 
 def descriptografe(texto, chave_criptografica):
-    n = 5
+    n = 7
     texto_dividido = ([texto[i:i+n] for i in range(0, len(texto), n)])
     textoy = ''
     for i in texto_dividido:
@@ -14,8 +14,11 @@ def descriptografe(texto, chave_criptografica):
 
         i = convertXDecimalToDecimal(68, i)
         i = str(i).split(str(chave_criptografica))
+
         try:
             for h in i:
+                if h == '':
+                    continue
                 textoy+=(chr(int(h)))
         except ValueError:
             print("Impossível descriptografar a mensagem, aguarde um momento...")

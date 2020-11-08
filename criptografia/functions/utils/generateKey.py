@@ -5,5 +5,7 @@ def generateKey(userKey):
             soma+=(idx*ord(value))
         else:
             soma+=ord(value)
-    soma = soma % 1000
+    soma = str(soma % 100000)
+    while len(soma) <5:
+    	soma="0"+soma
     return soma

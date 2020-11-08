@@ -6,7 +6,6 @@ from descriptografe import descriptografe
 from playsound import playsound
 
 def collectInformation(attempt, barrier):
-
     opcao = ''
     while (opcao!="c" and opcao!="d"):
         opcao = input("Deseja [C]riptografar ou [D]escriptografar? ").lower()
@@ -33,6 +32,6 @@ def collectInformation(attempt, barrier):
         else:
             attempt=0
             barrier=10
-        collectInformation(attempt, barrier)
+    collectInformation(attempt, barrier)
 
 collectInformation(0,10)

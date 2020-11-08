@@ -3,5 +3,5 @@ def convertXDecimalToDecimal(x, valueArray):
         base = x
 
         for index, valor in enumerate(valueArray):
-            final +=pow(base, index) * int(valor)
+            final +=(base ** index) * int(valor)
         return final
