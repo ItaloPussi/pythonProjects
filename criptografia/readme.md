@@ -4,7 +4,7 @@ Nesse projeto está sendo desenvolvida uma criptografia baseada no sistema hexad
 Ela está sendo criada para um trabalho do 2º semestre da faculdade.
 
 ## Status
-![75%](https://progress-bar.dev/50)
+![80%](https://progress-bar.dev/80)
 
 ## Contribuindo
 Atualmente esse projeto está com suas contribuições diretas fechadas. Mas sinta-se livre para abrir uma issue.
