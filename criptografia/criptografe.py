@@ -17,7 +17,7 @@ def criptografe(texto, chave_criptografica):
             resto = resto - ord(letter)
             resto = int(f'{ord(letter)+resto}{chave_criptografica}{ord(letter)}')
         base = len(cryptoCharacters)-1
-        valores = convertDecimalToXDecimal(base, 100420)
+        valores = convertDecimalToXDecimal(base, resto)
         print(valores)
         for i in reversed(valores):
             texto_criptografado +=cryptoCharacters[i]
