@@ -6,7 +6,7 @@ Nesse repositório você irá encontrar projetos de programação envolvendo Pyt
 
 ## Instalação
 
-Caso deseje testar alguma funcionalidade, basta clonar o subdiretório escolhido e iniciar o arquivo ```index.html```.
+Caso deseje testar alguma funcionalidade, basta clonar o subdiretório escolhido e iniciar o arquivo ```index.py```.
 
 ## Contribuindo
 Caso queira sugerir algum projeto interessante em Python, sinta-se livre para abrir uma issue. 
