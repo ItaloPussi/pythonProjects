@@ -1,13 +1,17 @@
 # Python Projects
 
-Nesse repositório você irá encontrar projetos de programação envolvendo Python. Como amante de automatizações, você irá encontrar desde projetos simples até automações complexas. Tudo dependendo da minha criatividade e disponibilidade.
+<a href="https://github.com/ItaloPussi/pythonProjects/blob/master/readme.pt.md">Versão em Português</a> 👈
 
-## Instalação
+In this repository you will find programming projects involving Python. As an automation lover, you will find everything from simple designs to complex automations. It all depends on my creativity and availability.
 
-Caso deseje testar alguma funcionalidade, basta clonar o subdiretório escolhido e iniciar o arquivo ```index.html```.
+## Installation
 
-## Contribuindo
-Caso queira sugerir algum projeto interessante em Python, sinta-se livre para abrir uma issue. 
+If you want to test some functionality, just clone the directory, access the chosen subdirectory and start the file ```index.py```
 
-## Licença
+## Contributing
+
+If you want to suggest an interesting project to be done in python, feel free to open an issue.
+
+## Licence
 [MIT](https://choosealicense.com/licenses/mit/)
+
